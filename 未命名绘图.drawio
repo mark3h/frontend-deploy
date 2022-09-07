@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T03:59:30.221Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.8" etag="54uI-ml2NYEBSm_hP6MH" type="github"><diagram id="CawiP5RovmFVvAsjJ3z6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-07T04:00:11.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9UsOyVbxNE2r5ebvYrrk" version="20.2.8" type="github">
+  <diagram id="CawiP5RovmFVvAsjJ3z6" name="第 1 页">
+    <mxGraphModel dx="1426" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y3v5JCnAGt20bSERnfSl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="160" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="y3v5JCnAGt20bSERnfSl-4" target="y3v5JCnAGt20bSERnfSl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-4" value="pnpm run build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-5" value="copy /dist /usr/share/nginx/html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-6" value="Stage: Build" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-7" value="Stage: Push Image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3v5JCnAGt20bSERnfSl-9" target="y3v5JCnAGt20bSERnfSl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-9" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;*.vue&lt;br&gt;.env.qa&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="45" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-10" value="Workspace Branch: qa" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y3v5JCnAGt20bSERnfSl-12" target="y3v5JCnAGt20bSERnfSl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-12" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;*.vue&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;.env.staging&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-13" value="Workspace Branch: staging" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="280" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#007FFF;" edge="1" parent="1" source="y3v5JCnAGt20bSERnfSl-15" target="y3v5JCnAGt20bSERnfSl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-15" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-16" value="Gitlab CI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="379" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#007FFF;" edge="1" parent="1" source="y3v5JCnAGt20bSERnfSl-19" target="y3v5JCnAGt20bSERnfSl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#007FFF;" edge="1" parent="1" source="y3v5JCnAGt20bSERnfSl-19" target="y3v5JCnAGt20bSERnfSl-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-19" value="API GateWay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-20" value="Kubernetes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="825" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-21" value="SaaS Food" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-22" value="SaaS PoP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-23" value="Basic Image: nginx + node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="300" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y3v5JCnAGt20bSERnfSl-24" value="Nginx &lt;br&gt;proxy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="230" width="50" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
